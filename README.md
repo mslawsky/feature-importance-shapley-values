@@ -1,4 +1,4 @@
-# Evaluating Feature Importance with SHAP Values <img src="pink-ribbon.png" width="20" height="20" alt="pink-ribbon">
+# Evaluating Feature Importance with SHAP Values <img src="pink-ribbon.jpg" width="20" height="20" alt="pink-ribbon">
 
 This repository contains a model interpretability exercise that trains an XGBoost classifier on the Breast Cancer Wisconsin dataset and uses SHAP (SHapley Additive exPlanations) values to explain its predictions. The focus is on understanding *why* the model makes its decisions and which features matter most for feature selection.
 
@@ -46,7 +46,7 @@ An XGBoost classifier (10 trees, max depth 3) was trained on all 30 features. SH
 
 The waterfall plot explains the model's prediction for a single sample (index 20, a benign tumor).
 
-![SHAP Waterfall Plot](Feature-waterfall-chart.png)
+![SHAP Waterfall Plot](cell-feature-waterfall.png)
 
 - **Starting point:** E[f(X)] = 0.689, the model's average output (in log-odds) across the background sample
 - **Final prediction:** f(x) = 3.748, which converts to about a **98% probability of benign**
