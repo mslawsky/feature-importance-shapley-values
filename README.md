@@ -60,7 +60,7 @@ The bar plot averages the absolute SHAP values across all 569 samples to rank fe
 
 ---
 
-## Key Takeaways #️⃣
+## Key Takeaways 💡
 
 **1. SHAP explains individual predictions, not just the model overall.**
 Built-in feature importance tells you which features the model uses most. SHAP also explains *why one specific patient* received their prediction. That matters in healthcare, where a model's reasoning needs to be reviewable case by case.
