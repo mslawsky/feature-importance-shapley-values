@@ -56,7 +56,7 @@ The waterfall plot explains the model's prediction for a single sample (index 20
 
 The bar plot averages the absolute SHAP values across all 569 samples to rank features by overall influence.
 
-![SHAP Bar Plot](Feature-bar-chart.png)
+![SHAP Bar Plot](cell-feature-bar-chart.png)
 
 ---
 
