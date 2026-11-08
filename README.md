@@ -1,4 +1,4 @@
-# Evaluating Feature Importance with SHAP Values <img src="pink-ribbon.jpg" width="20" height="20" alt="pink-ribbon">
+# Evaluating Feature Importance with SHAP Values <img src="pink-ribbon2.jpg" width="30" height="30" alt="pink-ribbon">
 
 This repository contains a model interpretability exercise that trains an XGBoost classifier on the Breast Cancer Wisconsin dataset and uses SHAP (SHapley Additive exPlanations) values to explain its predictions. The focus is on understanding *why* the model makes its decisions and which features matter most for feature selection.
 
