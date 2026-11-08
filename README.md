@@ -46,7 +46,7 @@ An XGBoost classifier (10 trees, max depth 3) was trained on all 30 features. SH
 
 The waterfall plot explains the model's prediction for a single sample (index 20, a benign tumor).
 
-![SHAP Waterfall Plot](shap-waterfall.png)
+![SHAP Waterfall Plot](feature-waterfall-chart.png)
 
 - **Starting point:** E[f(X)] = 0.689, the model's average output (in log-odds) across the background sample
 - **Final prediction:** f(x) = 3.748, which converts to about a **98% probability of benign**
@@ -56,7 +56,7 @@ The waterfall plot explains the model's prediction for a single sample (index 20
 
 The bar plot averages the absolute SHAP values across all 569 samples to rank features by overall influence.
 
-![SHAP Bar Plot](shap-bar-importance.png)
+![SHAP Bar Plot](feature-bar-chart.png)
 
 ---
 
